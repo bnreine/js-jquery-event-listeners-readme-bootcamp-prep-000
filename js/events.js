@@ -7,7 +7,7 @@ function  getIt() {
 
 function frameIt() {
   $('img')[0].addEventListener('load', function(event) {
-    $('img').setAttribute('class', 'tasty');
+    $('img')[0].setAttribute('class', 'tasty');
   })
 }
 
