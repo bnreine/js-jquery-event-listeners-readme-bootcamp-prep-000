@@ -19,36 +19,25 @@ function pressIt() {
   })
 }
 
+function submitIt() {
+  
+}
+
 /*
-  describe('pressIt()', () => {
-    it('pressIt() binds an event that alerts the user when the G key was pressed down', function() {
-      window.alert = expect.createSpy()
+  it('submitIt() binds an event that alerts "Your form is going to be submitted now." when the form is submitted', function() {
+    window.alert = expect.createSpy()
 
-      window.pressIt();
+    window.submitIt();
 
-      const input = window.$('#typing');
-      const event = window.$.Event('keydown', { which: 71 })
-      input.trigger(event)
+    const form = window.$('form')[0]
 
-      expect(window.alert).toHaveBeenCalled()
-    })
+    window.$(form).trigger('submit')
 
-    it('does not alert if another key is pressed', () => {
-      window.alert = expect.createSpy()
+    expect(window.alert).toHaveBeenCalledWith('Your form is going to be submitted now.');
+  });
 
-      window.pressIt();
+});
 
-      const input = window.$('#typing');
-      const event = window.$.Event('keydown', { which: 70 })
-      input.trigger(event)
-
-      expect(window.alert).toNotHaveBeenCalled()
-    })
-  })
-
-+ Define a function `pressIt` that does not accept a parameter. The function
-should bind a `keydown` event to the input field of the form that alerts a user
-when they have pressed the `G` key.
 */
 
 
@@ -57,4 +46,5 @@ $(document).ready(function(){
   getIt();
   frameIt();
   pressIt();
+  submitIt();
 });
