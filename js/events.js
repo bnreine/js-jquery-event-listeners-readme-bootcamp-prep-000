@@ -5,6 +5,7 @@ function  getIt() {
 }
 
 function frameIt() {
+  console.log('yo my man';)
   $('img').addEventListener('load', function(event) {
     $('img').setAttribute('class', 'tasty');
   }  )
