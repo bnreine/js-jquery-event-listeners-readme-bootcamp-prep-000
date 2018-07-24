@@ -52,8 +52,8 @@ when they have pressed the `G` key.
 */
 
 
+frameIt();
 $(document).ready(function(){
   getIt();
-  frameIt();
   pressIt();
 });
