@@ -1,10 +1,9 @@
-/*
+
 function  getIt() {
   $('p').addEventListener('click', function(event) {
     alert('"Hey"!');
    })
 }
-*/
 
 function frameIt() {
   $('img').addEventListener('load', function(event) {
@@ -30,6 +29,6 @@ red frame to the image.
 */
 
 $(document).ready(function(){
-  //getIt();
+  getIt();
   frameIt();
 });
