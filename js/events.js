@@ -1,18 +1,18 @@
 
 function  getIt() {
-  $('p').on('click', function(event) {
+  $('p').addEventListener('click', function(event) {
     alert('"Hey"!');
    })
 }
 
 function frameIt() {
-  $('img').on('load', function(event) {
+  $('img').addEventListener('load', function(event) {
     $('img').setAttribute('class', 'tasty');
   })
 }
 
 function pressIt() {
-  $('#typing').on('keydown', function(key) {
+  $('#typing').addEventListener('keydown', function(key) {
     if (key.which==103) {
       alert('You pressed the "G" key!');
     }
