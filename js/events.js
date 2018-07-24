@@ -1,19 +1,19 @@
 
 function  getIt() {
-  $('p').addEventListener('click', function(event) {
+  $('p')[0].addEventListener('click', function(event) {
     alert('"Hey"!');
    })
 }
 
 function frameIt() {
-  $('img').addEventListener('load', function(event) {
+  $('img')[0].addEventListener('load', function(event) {
     $('img').setAttribute('class', 'tasty');
   })
 }
 
 function pressIt() {
-  $('#typing').addEventListener('keydown', function(key) {
-    if (key.which==103) {
+  $('#typing')[0].addEventListener('keydown', function(key) {
+    if (key.which==071) {
       alert('You pressed the "G" key!');
     }
   })
