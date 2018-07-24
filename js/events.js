@@ -3,12 +3,9 @@
 
 
 function  getIt() {
- //alert('yo')
- 
- $('p').addEventListener('click', function(event) {
-  alert('"Hey"!');
-  //console.log('hey');
- })
+  $('p').addEventListener('click', function(event) {
+    alert('"Hey"!');
+   })
 }
 
 
