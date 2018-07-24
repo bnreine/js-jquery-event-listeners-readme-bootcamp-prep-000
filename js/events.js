@@ -6,7 +6,7 @@ function  getIt() {
 }
 
 function frameIt() {
-  document.addEventListener('load', function(event) {
+  window.addEventListener('load', function(event) {
     $('img')[0].setAttribute('class', 'tasty');
   })
 }
