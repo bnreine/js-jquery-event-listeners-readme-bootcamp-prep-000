@@ -19,32 +19,11 @@ function pressIt() {
   })
 }
 
-
 function submitIt() {
   $('form')[0].addEventListener('submit', function(event) {
     alert('"Your form is going to be submitted now."')
   }  )
 }
-
-
-/*
-  it('submitIt() binds an event that alerts "Your form is going to be submitted now." when the form is submitted', function() {
-    window.alert = expect.createSpy()
-
-    window.submitIt();
-
-    const form = window.$('form')[0]
-
-    window.$(form).trigger('submit')
-
-    expect(window.alert).toHaveBeenCalledWith('Your form is going to be submitted now.');
-  });
-
-});
-
-*/
-
-
 
 $(document).ready(function(){
   getIt();
