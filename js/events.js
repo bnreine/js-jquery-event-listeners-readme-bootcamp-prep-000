@@ -29,4 +29,5 @@ red frame to the image.
 
 $(document).ready(function(){
   getIt();
+  frameIt();
 });
