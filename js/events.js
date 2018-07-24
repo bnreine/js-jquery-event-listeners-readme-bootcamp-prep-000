@@ -6,7 +6,7 @@ function  getIt() {
 }
 
 function frameIt() {
-  $('img')[0].addEventListener('load', function(event) {
+  document.addEventListener('load', function(event) {
     $('img')[0].setAttribute('class', 'tasty');
   })
 }
@@ -52,8 +52,9 @@ when they have pressed the `G` key.
 */
 
 
-frameIt();
+
 $(document).ready(function(){
+  frameIt();
   getIt();
   pressIt();
 });
