@@ -3,7 +3,7 @@
 
 
 function  getIt() {
- alert('yo')
+ //alert('yo')
  
  $('p').addEventListener('click', function(event) {
   //alert('"Hey"!');
