@@ -14,7 +14,7 @@ function frameIt() {
 function pressIt() {
   $('#typing')[0].addEventListener('keydown', function(key) {
     console.log('type');
-    if (key.which==071) {
+    if (key.which===071) {
       alert('You pressed the "G" key!');
     }
   })
