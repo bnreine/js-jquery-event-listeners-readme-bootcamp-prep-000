@@ -1,12 +1,12 @@
 
 function  getIt() {
-  $('p').addEventListener('click', function(event) {
+  $('p').on('click', function(event) {
     alert('"Hey"!');
    })
 }
 
 function frameIt() {
-  $('img').addEventListener('load', function(event) {
+  $('img').on('load', function(event) {
     $('img').setAttribute('class', 'tasty');
   })
 }
