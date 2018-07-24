@@ -7,7 +7,7 @@ function  getIt() {
 */
 
 function frameIt() {
-  console.log('yo my man';)
+  console.log('yo my man');
   
   /*
   $('img').addEventListener('load', function(event) {
