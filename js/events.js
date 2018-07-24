@@ -1,4 +1,3 @@
-
 function  getIt() {
   $('p')[0].addEventListener('click', function(event) {
     alert('"Hey"!');
