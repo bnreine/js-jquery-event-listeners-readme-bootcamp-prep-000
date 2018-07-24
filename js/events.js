@@ -12,7 +12,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  
+  $('#typing').addEventListener('keydown', function(event) {
+    
+  }   )
 }
 
 /*
