@@ -11,7 +11,9 @@ function frameIt() {
   })
 }
 
-
+function pressIt() {
+  
+}
 
 /*
   describe('pressIt()', () => {
@@ -49,4 +51,5 @@ when they have pressed the `G` key.
 $(document).ready(function(){
   getIt();
   frameIt();
+  pressIt();
 });
