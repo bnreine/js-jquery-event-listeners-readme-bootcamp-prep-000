@@ -1,14 +1,20 @@
+/*
 function  getIt() {
   $('p').addEventListener('click', function(event) {
     alert('"Hey"!');
    })
 }
+*/
 
 function frameIt() {
   console.log('yo my man';)
+  
+  /*
   $('img').addEventListener('load', function(event) {
     $('img').setAttribute('class', 'tasty');
   }  )
+  */
+  
 }
 
 /*
@@ -29,6 +35,6 @@ red frame to the image.
 */
 
 $(document).ready(function(){
-  getIt();
+  //getIt();
   frameIt();
 });
