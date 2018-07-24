@@ -4,7 +4,8 @@
 
 function  getIt() {
  $('p').addEventListener('click', function(event) {
-   alert('"Hey"!');
+  //alert('"Hey"!');
+  console.log('hey');
  })
 }
 
