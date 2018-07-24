@@ -20,7 +20,9 @@ function pressIt() {
 }
 
 function submitIt() {
-  
+  $('form')[0].addEventListener('submit', function(event) {
+    alert('"Your form is going to be submitted now."')
+  }  )
 }
 
 /*
