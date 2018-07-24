@@ -5,7 +5,7 @@ function  getIt() {
 }
 
 function frameIt() {
-  
+  $('img').addEventListener('load')
 }
 
 /*
