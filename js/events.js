@@ -7,8 +7,8 @@ function  getIt() {
 */
 
 function frameIt() {
-  console.log('yo my man');
-  
+  //console.log('yo my man');
+  return $('img');
   /*
   $('img').addEventListener('load', function(event) {
     $('img').setAttribute('class', 'tasty');
