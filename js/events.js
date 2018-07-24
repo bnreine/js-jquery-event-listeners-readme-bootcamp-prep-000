@@ -12,9 +12,11 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').addEventListener('keydown', function(event) {
-    
-  }   )
+  $('#typing').addEventListener('keydown', function(key) {
+    if (key==='G') {
+      alert('You pressed the "G" key!');
+    }
+  })
 }
 
 /*
